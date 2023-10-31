@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    padding: 8px;
+    background-color: black;
+    
+}
+
+.sidebar-nav{
+    background-color: black;
+    color: white;
+    width: 18rem;
+    padding-right: 0.55rem;
+    
+}
+
+.explore{
+    background-color: #121212;
+    flex: 1;
+    color: white;
+    border-radius: 1rem;
+    overflow: auto;
+}
+
+.now-playing{
+    background-color: blue;
+    position: fixed;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    height: 4.5rem;
+}
+
+.home-search{
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100px;
+    padding: 8px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-option-home{
+    padding: 0.5rem 0.75rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-option-search{
+    padding: 0.5rem 0.75rem;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #B3B3B3;
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+i{
+    font-size: 1.25rem;
+    color: white;
+}
+
+i:hover{
+    opacity: 1;
+}
+a:hover{
+    color: white;
+}
+.lib-sec{
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100vh;
+    padding: 0rem 0.5rem 0.5rem;
+    margin-top: 0.35rem;
+}
+
+.lib-header{
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.yourlibrary{
+    display: flex;
+    align-items: center;
+}
+
+.yourlibrary img{
+    height: 1.35rem;
+    width: 1.35rem;
+}
+
+.yourlibrary a{
+    font-size: 0.95rem;
+}
+
+.card{
+    margin: 0.5rem 0rem;
+    background-color: #242424;
+    border-radius: 1rem;
+    padding: 1rem 1.2rem;
+}
+
+.card .top{
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.card .bottom{
+    font-weight: 550;
+    font-size: 0.8rem;
+    margin-top: 0.6rem;
+}
+
+.crt-ply-btn{
+    margin-top: 1.4rem;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    color: black;
+    font-weight: 700;
+    border: none;
+
+}
+
+.card2{
+    margin: 1.4rem 0rem;
+    background-color: #242424;
+    border-radius: 1rem;
+    padding: 1rem 1.2rem;
+}
+
+.card2 .top{
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.card2 .bottom{
+    font-weight: 550;
+    font-size: 0.8rem;
+    margin-top: 0.6rem;
+}
+
+.explore-header{
+    padding: 1rem 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    z-index: 10;
+}
+
+.arrow{
+    display: flex;
+    
+}
+
+.circle{
+    height: 2.15rem;
+    width: 2.15rem;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0rem 0.25rem;
+}
+
+.explr-prpm-btn{
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    color: black;
+    font-weight: 700;
+    border: none;
+
+}
+
+.instl-app-btn{
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border: none;
+}
+
+.instl-app-btn i{
+    color: white;
+    font-size: 1.1rem;
+    margin-right: 0.35rem;
+}
+
+.instl-app-btn .internaldiv{
+    display: flex;
+    align-items: center;
+}
+
+.explore-header-options{
+    display: flex;
+}
+
+@media (max-width:1000px){
+    .hide{
+        display: none;
+    }
+}
+
+.explore-cards{
+    padding: 1.2rem;
+}
+
+.card3{
+    margin: 1.4rem 0rem;
+    background-color: #242424;
+    border-radius: 1rem;
+    padding: 1rem 1.2rem;
+    border-radius: 0.6rem;
+    width: 11.3rem;
+    margin-right: 0.5rem;
+    height: 17rem;
+}
+
+.card3 img{
+    height: 180px;
+    width: 180px;
+    border-radius: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.card3 .top{
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.card3 .bottom{
+    font-weight: 550;
+    font-size: 0.8rem;
+    margin-top: 0.6rem;
+    opacity: 0.6;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.footer{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    border-top: 1px solid white;
+    width: 90%;
+    height: 50%;
+    opacity: 0.3;
+}
